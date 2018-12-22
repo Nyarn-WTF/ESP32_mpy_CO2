@@ -13,9 +13,6 @@ dht22 = dht.DHT22(Pin(15))
 
 def main():
     discom = 0
-    oled.text("test",0,0)
-    oled.show()
-    sleep(1)
     oled.fill(0)
     oled.show()
     while 1:
